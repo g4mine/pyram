@@ -1,6 +1,7 @@
 import os
 import base64
-filenames = os.listdir("data")
+inp = input (str ())
+filenames = os.listdir(inp)
 for arq in filenames:
 	pathname = os.path.join("data", arq)
 	file = open(pathname, 'r')
